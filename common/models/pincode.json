@@ -1,0 +1,34 @@
+{
+  "name": "pincode",
+  "plural": "pincode",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "pincodeNo": {
+      "type": "number"
+    },
+    "is_active": {
+      "type": "number"
+    },
+    "is_show": {
+      "type": "number"
+    },
+    "created": {
+      "type": "string"
+    },
+    "updated": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

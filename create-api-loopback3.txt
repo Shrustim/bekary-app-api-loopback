@@ -1,0 +1,289 @@
+Microsoft Windows [Version 10.0.19042.1415]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Shrushti\aaa\loopback3>lb
+'lb' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Shrushti\aaa\loopback3>npm install -g loopback-cli
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated loopback-boot@2.28.0: This version is no longer supported, please upgrade to 3.x
+npm WARN deprecated core-js@2.6.12: core-js@<3.4 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.
+
+added 864 packages, and audited 865 packages in 4m
+
+37 packages are looking for funding
+  run `npm fund` for details
+
+19 vulnerabilities (3 moderate, 16 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+C:\Shrushti\aaa\loopback3>lb
+
+LoopBack 3 has reached end of life. We are no longer accepting pull requests
+or providing support for community users. The only exception is fixes for
+critical bugs and security vulnerabilities provided as part of support for
+IBM API Connect customers.
+
+We urge all LoopBack 3 users to migrate their applications to LoopBack 4
+as soon as possible. Refer to our Migration Guide for more information
+on how to upgrade: https://loopback.io/doc/en/lb4/migration-overview.html
+
+? What's the name of your application? loopback3-api-sample
+? Enter name of the directory to contain the project: loopback3-api-sample
+   create loopback3-api-sample/
+     info change the working directory to loopback3-api-sample
+
+? Which version of LoopBack would you like to use? 3.x (Maintenance Long Term Support)
+? What kind of application do you have in mind? api-server (A LoopBack API server with local User auth)
+Generating .yo-rc.json
+
+
+I'm all done. Running npm install for you to install the required dependencies. If this fails, try running the command yourself.
+
+
+
+
+Next steps:
+
+  Change directory to your app
+    $ cd loopback3-api-sample
+
+  Create a model in your app
+    $ lb model
+
+  Run the app
+    $ node .
+
+The API Connect team at IBM happily continues to develop,
+support and maintain LoopBack, which is at the core of
+API Connect. When your APIs need robust management and
+security options, please check out http://ibm.biz/tryAPIC
+
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated loopback-boot@2.28.0: This version is no longer supported, please upgrade to 3.x
+npm WARN deprecated swagger-ui@2.2.10: No longer maintained, please upgrade to swagger-ui@3.
+
+added 487 packages, and audited 488 packages in 43s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+13 vulnerabilities (3 moderate, 10 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+C:\Shrushti\aaa\loopback3>cd loopback3-api-sample
+
+C:\Shrushti\aaa\loopback3\loopback3-api-sample>lb datasource
+
+LoopBack 3 has reached end of life. We are no longer accepting pull requests
+or providing support for community users. The only exception is fixes for
+critical bugs and security vulnerabilities provided as part of support for
+IBM API Connect customers.
+
+We urge all LoopBack 3 users to migrate their applications to LoopBack 4
+as soon as possible. Refer to our Migration Guide for more information
+on how to upgrade: https://loopback.io/doc/en/lb4/migration-overview.html
+
+? Enter the datasource name: mysql
+? Select the connector for mysql: In-memory db (supported by StrongLoop)
+? window.localStorage key to use for persistence (browser only):
+? Full path to file for persistence (server only):
+
+C:\Shrushti\aaa\loopback3\loopback3-api-sample>lb datasource
+
+LoopBack 3 has reached end of life. We are no longer accepting pull requests
+or providing support for community users. The only exception is fixes for
+critical bugs and security vulnerabilities provided as part of support for
+IBM API Connect customers.
+
+We urge all LoopBack 3 users to migrate their applications to LoopBack 4
+as soon as possible. Refer to our Migration Guide for more information
+on how to upgrade: https://loopback.io/doc/en/lb4/migration-overview.html
+
+? Enter the datasource name: mysqll
+? Select the connector for mysqll: MySQL (supported by StrongLoop)
+? Connection String url to override other settings (eg: mysql://user:pass@host/db):
+? host: localhost
+? port: 3308
+? user: root
+? password: [hidden]
+? database: loopback3
+? Install loopback-connector-mysql@^5.3.0 (Y/n) Run-async wrapped function (sync) returned a promise but async() callback must be executed to resolve.
+? Install loopback-connector-mysql@^5.3.0 Yes
+
+added 23 packages, and audited 511 packages in 3s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+13 vulnerabilities (3 moderate, 10 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+C:\Shrushti\aaa\loopback3\loopback3-api-sample>lb model
+
+LoopBack 3 has reached end of life. We are no longer accepting pull requests
+or providing support for community users. The only exception is fixes for
+critical bugs and security vulnerabilities provided as part of support for
+IBM API Connect customers.
+
+We urge all LoopBack 3 users to migrate their applications to LoopBack 4
+as soon as possible. Refer to our Migration Guide for more information
+on how to upgrade: https://loopback.io/doc/en/lb4/migration-overview.html
+
+? Enter the model name: City
+? Select the datasource to attach City to: mysqll (mysql)
+? Select model's base class PersistedModel
+? Expose City via the REST API? Yes
+? Custom plural form (used to build REST URL): /citys
+? Common model or server only? common
+Let's add some City properties now.
+
+Enter an empty property name when done.
+? Enter the property name: id
+? Property type: number
+? Required? Yes
+? Default value[leave blank for none]:
+
+Let's add another City property.
+Enter an empty property name when done.
+? Enter the property name: name
+? Property type: string
+? Required? Yes
+? Default value[leave blank for none]:
+
+Let's add another City property.
+Enter an empty property name when done.
+? Enter the property name: cityCode
+? Property type: number
+? Required? No
+? Default value[leave blank for none]: 0
+
+Let's add another City property.
+Enter an empty property name when done.
+? Enter the property name:
+
+C:\Shrushti\aaa\loopback3\loopback3-api-sample>node .
+Web server listening at: http://localhost:3000
+Browse your REST API at http://localhost:3000/explorer
+
+C:\Shrushti\aaa\loopback3\loopback3-api-sample>lb model
+
+LoopBack 3 has reached end of life. We are no longer accepting pull requests
+or providing support for community users. The only exception is fixes for
+critical bugs and security vulnerabilities provided as part of support for
+IBM API Connect customers.
+
+We urge all LoopBack 3 users to migrate their applications to LoopBack 4
+as soon as possible. Refer to our Migration Guide for more information
+on how to upgrade: https://loopback.io/doc/en/lb4/migration-overview.html
+
+? Enter the model name: Region
+? Select the datasource to attach Region to: mysqll (mysql)
+? Select model's base class PersistedModel
+? Expose Region via the REST API? Yes
+? Custom plural form (used to build REST URL): /regions
+? Common model or server only? common
+Let's add some Region properties now.
+
+Enter an empty property name when done.
+? Enter the property name: id
+? Property type: number
+? Required? Yes
+? Default value[leave blank for none]:
+
+Let's add another Region property.
+Enter an empty property name when done.
+? Enter the property name: name
+? Property type: string
+? Required? Yes
+? Default value[leave blank for none]:
+
+Let's add another Region property.
+Enter an empty property name when done.
+? Enter the property name: regionCode
+? Property type: number
+? Required? No
+? Default value[leave blank for none]:
+
+Let's add another Region property.
+Enter an empty property name when done.
+? Enter the property name: cityId
+? Property type: number
+? Required? Yes
+? Default value[leave blank for none]:
+
+Let's add another Region property.
+Enter an empty property name when done.
+? Enter the property name:
+
+
+C:\Shrushti\aaa\loopback3\loopback3-api-sample>lb relation
+
+LoopBack 3 has reached end of life. We are no longer accepting pull requests
+or providing support for community users. The only exception is fixes for
+critical bugs and security vulnerabilities provided as part of support for
+IBM API Connect customers.
+
+We urge all LoopBack 3 users to migrate their applications to LoopBack 4
+as soon as possible. Refer to our Migration Guide for more information
+on how to upgrade: https://loopback.io/doc/en/lb4/migration-overview.html
+
+? Select the model to create the relationship from: City
+? Relation type: has many
+? Choose a model to create a relationship with: Region
+? Enter the property name for the relation: regionsloopback-datasource-juggler deprecated Scope method "getAsync()" is deprecated, use "find()" instead. ..\..\..\..\Users\farhinpatil\AppData\Roaming\npm\node_modules\loopback-cli\node_modules\generator-loopback\lib\helpers.js:132:37
+? Enter the property name for the relation: regions
+? Optionally enter a custom foreign key: cityId
+? Require a through model? No
+? Allow the relation to be nested in REST APIs: No
+? Disable the relation from being included: No
+
+C:\Shrushti\aaa\loopback3\loopback3-api-sample>lb relation
+
+LoopBack 3 has reached end of life. We are no longer accepting pull requests
+or providing support for community users. The only exception is fixes for
+critical bugs and security vulnerabilities provided as part of support for
+IBM API Connect customers.
+
+We urge all LoopBack 3 users to migrate their applications to LoopBack 4
+as soon as possible. Refer to our Migration Guide for more information
+on how to upgrade: https://loopback.io/doc/en/lb4/migration-overview.html
+
+? Select the model to create the relationship from: Region
+? Relation type: belongs to
+? Choose a model to create a relationship with: City
+? Enter the property name for the relation: cityloopback-datasource-juggler deprecated Scope method "getAsync()" is deprecated, use "find()" instead. ..\..\..\..\Users\farhinpatil\AppData\Roaming\npm\node_modules\loopback-cli\node_modules\generator-loopback\lib\helpers.js:132:37
+? Enter the property name for the relation: city
+? Optionally enter a custom foreign key: cityId
+? Allow the relation to be nested in REST APIs: No
+? Disable the relation from being included: No
+
+C:\Shrushti\aaa\loopback3\loopback3-api-sample>

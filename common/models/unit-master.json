@@ -1,0 +1,38 @@
+{
+  "name": "unit_master",
+  "plural": "unit",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "parentId": {
+      "type": "number"
+    },
+    "conversion_value": {
+      "type": "number"
+    },
+    "is_active": {
+      "type": "number"
+    },
+    "created": {
+      "type": "string"
+    },
+    "updated": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
